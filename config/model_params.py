@@ -9,8 +9,8 @@ LIGHTGBM_PARAMS = {
 }
 
 RANDOM_SEARCH_PARAMS = {
-    "n_iter": 10,
-    "cv": 5,
+    "n_iter": 3,
+    "cv": 3,
     "n_jobs": -1, # to use all cpus on training
     "verbose": 2,
     "random_state": 42,
